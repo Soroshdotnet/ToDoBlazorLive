@@ -5,10 +5,10 @@ on:
     - master
 env:
   AZURE_WEBAPP_NAME: soroshtodo
-  AZURE_WEBAPP_PACKAGE_PATH: ToDoBlazor2\published
+  AZURE_WEBAPP_PACKAGE_PATH: ToDoBlazorLive\published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 7.0.x
-  WORKING_DIRECTORY: ToDoBlazor2
+  WORKING_DIRECTORY: ToDoBlazorLive
 jobs:
   build:
     runs-on: windows-latest
